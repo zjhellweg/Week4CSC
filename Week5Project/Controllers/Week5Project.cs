@@ -15,9 +15,10 @@ namespace Week5Project.Controllers
             }
 
             //retuning input
-
+            System.Diagnostics.Debug.WriteLine(input[0]);
             return Accepted(input);
         }
+
     };
     
 }
