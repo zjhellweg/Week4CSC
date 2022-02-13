@@ -11,14 +11,20 @@ namespace Week5Project.Controllers
         {
             foreach(Doge doge in input)
             {
-                System.Console.WriteLine(doge.Name);
+                System.Console.WriteLine(returnString(doge.Name));
             }
 
             //retuning input
 
             return Accepted(input);
         }
+
+        string returnString(string input)
+        {
+            return input;
+        }
     };
+
     
 }
 
